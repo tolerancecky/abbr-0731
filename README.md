@@ -27,7 +27,7 @@ data/data-bin/fn2abbr \
     --keep-last-epochs 5 \
     --batch-size 8
 
-#For inference
+# For inference
 fairseq-generate \
    data/data-bin/fn2abbr \
     --gen-subset test \
